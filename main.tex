@@ -37,7 +37,7 @@
     755200, 741068, 757688,\\
     757676, 755591, 757787,\\
     757701, 757734, 757770\\ \\ \\
-    Antall ord: 5999 \\ \\}
+    Antall ord: 5998 \\ \\}
 
 \renewcommand{\contentsname}{Innhold}
 \renewcommand\refname{Referanser}
@@ -156,9 +156,9 @@ Gruppen bestemte seg tidlig for at alle skulle jobbe med forskjellige arbeidsopp
     \paragraph{Ikke planlagte ting:}\label{subsec:ikkeplanlagt}
     Her finnes deloppgaver som dukker opp underveis. Disse var ikke planlagt fra starten, men må implementeres for at produktet skal fungere. Ved for dårlig planlegging, kan dette føre til en flom av ikke planlagte elementer. Arbeidsmengden vil da øke raskere og det ender med en for sakte synkende graf.
 
-    %Høres ut som.. "hvordan tolke brenndiagrammet"...
+    %Høres ut som.. hvordan tolke brenndiagrammet...
     %Trenger vi dette? TODO: make up our hive-mind.
-    Faresignaler fra brenndiagrammet kan være: Hvis grafen synker for fort, har brukerhistoriene tatt mindre tid enn forventet, dette skyldes dårlig estimering. Synker grafen for sakte har estimatene vært for lave. Disse problemene løses motsatt, synker grafen for fort flyttes brukerhistorier fra "neste historier" og inn i sprint, synker den for sakte flyttes brukerhistorier inn i "neste historier".
+    Faresignaler fra brenndiagrammet kan være: Hvis grafen synker for fort, har brukerhistoriene tatt mindre tid enn forventet, dette skyldes dårlig estimering. Synker grafen for sakte har estimatene vært for lave. Disse problemene løses motsatt, synker grafen for fort flyttes brukerhistorier fra \textit{neste historier} og inn i sprint, synker den for sakte flyttes brukerhistorier inn i \textit{neste historier}.
 
     \paragraph{Neste historier:}
     Her er alle brukerhistoriene som ikke er implementert enda og ikke har fått plass i den nåværende sprinten.
@@ -183,7 +183,7 @@ I tillegg til at man kan ha flere branches, vil man trenge godkjenning av andre 
     \bigskip\begin{adjustwidth}{2.5em}{0pt}
     \say {\textit{The strength and pain of Scrum is that you are forced to adapt it to your specific situation}}
     \end{adjustwidth}
-    \bigskip Gruppens største utfordring med å tilpasse Scrum var på grunn av forskjellige timeplaner og mangel på et fast og privat rom. I motsetning til en prosjektgruppe i et konsulentfirma ville vi ikke ha muligheten til å møtes hver dag i uka på samme sted.
+    \bigskip Gruppens største utfordring med å tilpasse \textit{Scrum} var på grunn av forskjellige timeplaner og mangel på et fast og privat rom. I motsetning til en prosjektgruppe i et konsulentfirma ville vi ikke ha muligheten til å møtes hver dag i uka på samme sted.
 
   \subsubsection{Sprintlengde}
   Gruppen bestemte at 2 uker lange sprinter var praktisk fordi vi kunne møte med veileder midt i sprinten og produkteier på slutten. Korte sprinter ville gjøre det mulig for oss å ha retrospektive møter ofte og få hyppige tilbakemelding fra produkteier. På slutten av hver sprint var planen å teste funksjonene som hadde blitt implementert med produkteier. Dette i form av en brukbarhetstest med scenario-tester.
@@ -195,25 +195,25 @@ I tillegg til at man kan ha flere branches, vil man trenge godkjenning av andre 
   \subsubsection{Brukerhistorier}
   Produkteier rangerte brukerhistoriene og ga dem lav, høy eller vanlig prioritet. Deretter måtte vi rangere historiene igjen, for å finne hvilke vi skulle implementere først av de med høyest prioritet. Noen historier så ut til å være avhengige av at andre var ferdige, og måtte nødvendigvis havne i tilsvarende rekkefølge. På grunn av estimater på noen historier måtte vi også gjøre en brukerhistorie med lavere prioritet før en med høyere prioritet, fordi det var den eneste vi fikk plass til i sprinten.
 
-    Når vi skulle estimere hvor mange arbeidsøkter en brukerhistorie kom til å ta, brukte vi planning poker på hver brukerhistorie. Planning poker utføres ved at hvert gruppemedlem får en kortstokk med 13 kort, med verdiene 0, \nicefrac{1}{2}, 1, 2, 3, 5, 8, 13, 20, 40, 100, ?, “Pause”. Alle velger ett av kortene som representerer estimert tid for å løse brukerhistorien. Har man bestemt seg for et kort legges det på bordet med baksiden opp. Når alle har et kort foran seg snur man dem. Dersom det oppsto store avvik i valg, skal man diskutere hvorfor estimatene blir forskjellige. Deretter skal brukerhistorien estimeres igjen for å se om gruppen blir mer enige om estimatene \cite[side 38-40]{kniberg}.
 
-    Det var nyttig. Vi fikk avdekket forskjellige oppfatninger i gruppen av hva slags tekniske implikasjoner historien innebar. Når en historie ga vidt forskjellige verdier, så kunne de som mente at historien trengte få økter, få si hvorfor de mente den ikke trengte så mange og motsatt. Det kom opp mange gode forslag på hvordan brukerhistorier kan løses på et teknisk nivå. Noen i gruppen visste allerede litt hvordan muligheter rammeverket ga, og hadde allerede idéer på løsninger av problemer. Når vi tok en ny runde planning poker på den samme brukerhistorien fikk vi bedre resultat og kunne fastsette antall økter.
+    Når vi skulle estimere hvor mange arbeidsøkter en brukerhistorie kom til å ta, brukte vi \textit{planning poker} på hver brukerhistorie. \textit{Planning poker} utføres ved at hvert gruppemedlem får en kortstokk med 13 kort, med verdiene 0, \nicefrac{1}{2}, 1, 2, 3, 5, 8, 13, 20, 40, 100, ?, “Pause”. Alle velger ett av kortene som representerer estimert tid for å løse brukerhistorien. Har man bestemt seg for et kort legges det på bordet med baksiden opp. Når alle har et kort foran seg snur man dem. Dersom det oppsto store avvik i valg, skal man diskutere hvorfor estimatene blir forskjellige. Deretter skal brukerhistorien estimeres igjen for å se om gruppen blir mer enige om estimatene \cite[side 38-40]{kniberg}.
+    Det var nyttig. Vi fikk avdekket forskjellige oppfatninger i gruppen av hva slags tekniske implikasjoner historien innebar. Når en historie ga vidt forskjellige verdier, så kunne de som mente at historien trengte få økter, få si hvorfor de mente den ikke trengte så mange og motsatt. Det kom opp mange gode forslag på hvordan brukerhistorier kan løses på et teknisk nivå. Noen i gruppen visste allerede litt hvordan muligheter rammeverket ga, og hadde allerede idéer på løsninger av problemer. Når vi tok en ny runde \textit{planning poker} på den samme brukerhistorien fikk vi bedre resultat og kunne fastsette antall økter.
 
   \subsubsection{Vårt Task-board}
-  Gruppen bestemte seg for å organisere task-boardet via "Trello.com". Trello er et nett-verktøy som kan brukes som et digitalt task-board. Alle på gruppen ble medlem av Trello, og vi lagde et team som alle ble medlem av. Vi inviterte også produkteier til å bli medlem, så produkteier kunne ha oversikt over hvordan vi lå an, og skrive inn prioriteringer på brukerhistoriene.
+  Gruppen bestemte seg for å organisere task-boardet via \textit{Trello.com}. \textit{Trello} er et nett-verktøy som kan brukes som et digitalt task-board. Alle på gruppen ble medlem av \textit{Trello}, og vi lagde et team som alle ble medlem av. Vi inviterte også produkteier til å bli medlem, så produkteier kunne ha oversikt over hvordan vi lå an, og skrive inn prioriteringer på brukerhistoriene.
 
-    I Trello kan man lage forskjellige brett, noe vi gjorde for hver sprint. På hvert respektive brett la vi til lister med kort, der hvert representerte en brukerhistorie. For hvert brett ble det laget lister for “Not checked out”, “Checked out”, “Andre oppgaver” og “Done”. Etter releaseplanleggingen ble brukerhistoriene lagt inn som kort i “Not checked out” for alle sprintene.
+    I \textit{Trello} kan man lage forskjellige brett, noe vi gjorde for hver sprint. På hvert respektive brett la vi til lister med kort, der hvert representerte en brukerhistorie. For hvert brett ble det laget lister for “Not checked out”, “Checked out”, “Andre oppgaver” og “Done”. Etter releaseplanleggingen ble brukerhistoriene lagt inn som kort i “Not checked out” for alle sprintene.
 
-    Når noen skulle begynne på en brukerhistorie, ble det tilsvarende kortet flyttet over til checked out. Trellobrukerne til de som jobbet med brukerhistorien ble knyttet opp mot kortet, så det ble lett å se hvem som jobbet med hva.
+    Når noen skulle begynne på en brukerhistorie, ble det tilsvarende kortet flyttet over til checked out. \textit{Trellobrukerne} til de som jobbet med brukerhistorien ble knyttet opp mot kortet, så det ble lett å se hvem som jobbet med hva.
 
-    Utvidelsen \textit{Burndown for Trello} lot oss legge inn estimert tidsbruk og storypoints på et kort, hvor mye tid som faktisk ble brukt på hvert kort, og automatisk generere brenndiagram basert på de to. (Se vedlegg ~\ref{app:taskboard} for forklaring på hvordan vi brukte Trello som task-board.)
+    Utvidelsen \textit{Burndown for Trello} lot oss legge inn estimert tidsbruk og storypoints på et kort, hvor mye tid som faktisk ble brukt på hvert kort, og automatisk generere brenndiagram basert på de to. (Se vedlegg ~\ref{app:taskboard} for forklaring på hvordan vi brukte \textit{Trello} som task-board.)
   \subsubsection{Våre Retrospektiver}
 
 \bigskip \noindent \textbf{Retrospektiv Sprint 1}
 \par Dagen etter første sprint hadde gruppen sitt første retrospektivt. Gruppen  diskuterte hvordan første sprint hadde gått. Gruppemedlemmene fikk hver sin tur til å si: “Hva som gikk bra”, “Hva som gikk dårlig” og “Hva vi kan forbedre” (se vedlagt møtereferat: ~\cref{app:sprint1}).
 
 \paragraph{Hva gikk bra:}
-I den første sprinten var gruppen mer effektiv enn vi hadde regnet med, dette resulterte i at gruppen fikk fullført flere brukerhistorier enn antatt. Samarbeidet i gruppen fungerte veldig bra, spesielt var gruppemedlemmene flinke til å hjelp hverandre. Fordelingen av arbeidsoppgaver gikk lett, gruppen delte seg opp i mindre grupper som tok ansvar for hver sine arbeidsoppgaver. Gruppemedlemmene var også flink til å dele kunnskapen med hverandre. En måte gruppen delte kunnskap var ved bruk av \textit{parprogrammering} \cite[side 17]{dyba}, der små grupper kodet sammen. Et av gruppemedlemmene skrev koden mens resten hjalp den som kodet. Denne metoden lot de som ikke var helt komfortable med teknologiene som ble brukt, bli bedre kjent mens de kunne støtte seg på andre gruppemedlemmer. Gruppens medlemmer var flinke til å tilegne seg ny kunnskap på egenhånd.
+I den første sprinten var gruppen mer effektiv enn vi hadde regnet med, dette resulterte i at gruppen fikk fullført flere brukerhistorier enn antatt. Samarbeidet i gruppen fungerte veldig bra, spesielt var gruppemedlemmene flinke til å hjelp hverandre. Fordelingen av arbeidsoppgaver gikk lett, gruppen delte seg opp i mindre grupper som tok ansvar for hver sine arbeidsoppgaver. Gruppemedlemmene var også flinke til å dele kunnskapen med hverandre. En måte gruppen delte kunnskap var ved bruk av \textit{parprogrammering} \cite[side 17]{dyba}, der små grupper kodet sammen. Et av gruppemedlemmene skrev koden mens resten hjalp den som kodet. Denne metoden lot de som ikke var helt komfortable med teknologiene som ble brukt, bli bedre kjent mens de kunne støtte seg på andre gruppemedlemmer. Gruppens medlemmer var flinke til å tilegne seg ny kunnskap på egenhånd.
 
 
 \paragraph{Hva gikk ikke bra:}
@@ -223,7 +223,7 @@ Gruppen satte av tid for å sette opp utviklingsmiljøene og til å lære verkt�
 
 På grunn av problemene med utviklingsmiljøene og mangel på oppgaver, var det til tider vanskelig å sysselsette alle gruppemedlemmene.
 
-Fordeling av arbeidsoppgaver på grupper førte til at ikke alle gruppemedlemmen fikk satt seg inn i de samme teknikkene.
+Fordeling av arbeidsoppgaver på grupper førte til at ikke alle gruppemedlemmene fikk satt seg inn i de samme teknikkene.
 Gruppen underestimerte arbeidet gruppen fikk gjort.
 
 
@@ -246,7 +246,7 @@ Vi fokuserte mer på administrative oppgaver og rapportskriving. Risikoanalyse o
 
 \paragraph{Hva gikk ikke bra:}
 I slutten av sprinten fant vi ut at arbeidsmengden var for stor. Det gjorde at vi måtte overføre noen deloppgaver fra brukerhistorien til neste sprint.
-Et problem vi merket denne sprinten var at vi fikk mindre ressurser å jobbe med. Det var større fravær enn tidligere, i tillegg kom gruppemedlemmer oftere forseint, som gjorde at det tok lengre tid å starte møtene.
+Et problem vi merket denne sprinten var at vi fikk mindre ressurser å jobbe med. Det var større fravær enn tidligere, i tillegg kom gruppemedlemmer oftere for seint, som gjorde at det tok lengre tid å starte møtene.
 
 \paragraph{Hva kan forbedres:}
 Siden mange var borte denne sprinten så ble gruppen enig om å bli bedre på å finne seg arbeidsoppgaver å gjøre hjemme ved fravær.
@@ -264,7 +264,7 @@ Gjennom sprinten har gruppen vært effektiv med arbeidsoppgavene, det vises ved 
 \paragraph{Hva gikk ikke bra:}
 En av tingene som gikk dårlig i denne sprinten var estimater av tid på brukerhistoriene, vi regnet med å bruke lengre tid på dem. Dette var fordi ingen hadde nok erfaring med verktøyene som skulle brukes til å gjøre et mer riktig estimat, f.eks. for å lage kart på en nettside.
 Det var dårlig fokus på å føre timer som ble brukt på de forskjellige oppgavene og å skrive logg for hva som skjedde på hvert møte.
-Flere i gruppen ble syk, men en i gruppen tok alltid kontakt da noen var borte og ikke ga beskjed, slik hadde arbeidsoppgaver.
+Flere i gruppen ble syk, men en i gruppen tok alltid kontakt da noen var borte og ikke ga beskjed, slik at de hadde arbeidsoppgaver.
 Mot slutten av sprinten var mye av arbeidet ferdig, da var det generelle inntrykket i gruppen at alt var ferdig. Det gjorde at man slappet litt mer av og ikke jobbet like hardt som ønskelig, iallefall siden det viste seg at det var problemer med noen av funksjonene som vi måtte fikse i neste sprint.
 Når det kom til rapporten så mente flere i gruppen at det var vanskelig å vite hvordan rapporten skulle skrives, det førte til at deler av rapportskrivingen gikk sakte da man satt seg fast.
 
@@ -291,7 +291,7 @@ En ting gruppen kunne forbedret var å involvere flere personer i rapportskrivin
 Gruppen skulle også klart å holde bedre fokus på møtene, for å være enda mer effektive.
 En annen ting vi kunne gjort bedre var å endre arbeidsmetoden i denne sprinten, der det for det meste bare var rapportskriving. Fordi måten man jobber best med kode og rapport er ikke nødvendigvis det samme, f.eks. lengde på arbeidsøkter, og man kan gjøre mer hjemme og møtes færre ganger.
 
-  \subsubsection{Sprintgjennomgang}
+\subsubsection{Sprintgjennomgang}
 \bigskip \noindent \textbf{Sprint 1}
 \par Sprint 1 startet med et sprintplanleggingsmøte der det ble diskutert hva som  skulle gjøres i sprinten og hvilke brukerhistorier vi skulle utføre. Disse ble valgt etter hva kunden hadde satt opp som høy prioritet. (Ref: \cref{app:releaseP3}) Gruppen laget også en brukerhistorie, administrasjon av koiene på nettsiden, som ble satt til sprint 4 siden det ble antatt at den kom til å ta lang tid.
 
@@ -299,30 +299,30 @@ Halvparten av arbeidsøktene var satt til å sette opp Stash, installere og sett
 
 Da brukerhistoriene ble startet, delte gruppen seg opp i to og gjorde en brukerhistorie hver. Begge brukerhistoriene handlet om å rapportering, \textit{ved} og \textit{ødelagte ting}. De var veldig like så alle på gruppen kunne lære seg det grunnleggende og hjelpe hverandre. Disse brukerhistoriene tok noe lenger tid enn estimert siden alle var nybegynnere. Dette jevnet seg ut etterhvert.
 
-Den siste brukerhistorien i sprinten, \textit{koiestyret skal kunne ta ut rapporter av ødelagte ting}, tok mindre tid enn estimert, fordi det kun var å koble rapporterte ting til admin-panelet. Gruppen fikk derfor tid til overs og valgte å overføre brukerhistorien om å rapportere tekniske utbedringer på en koie fra sprint 2 til 1 fordi denne hadde lavest prioritet.
+Den siste brukerhistorien i sprinten, \textit{koiestyret skal kunne ta ut rapporter av ødelagte ting}, tok mindre tid enn estimert, fordi det kun var å koble rapporterte ting til admin-panelet. Gruppen fikk derfor tid til overs og valgte å overføre brukerhistorien \textit{rapportere tekniske utbedringer på en koie} fra sprint 2 til 1 fordi denne hadde lavest prioritet.
 
 Brenndiagrammet viser progresjonen for oppgavene i denne sprinten (se vedlegg, sprint1: \cref{app:brenn}.)
 
 \bigskip \noindent \textbf{Sprint 2}
-\par Sprinten startet med et sprintplanleggingsmøte. Vi gikk ut fra releaseplanen, men siden en av brukerhistoriene ble flyttet til sprint 1 ble det hentet en fra sprint 3 (se vedlagt releaseplan-v3: ~\cref{app:releaseP3}). Gruppen valgte brukerhistorien med likest tidsestimat til den som ble flyttet til sprint 1. Gruppens egenlagde brukerhistorie om \textit{administrasjon av koiene} ble implementert av seg selv da andre oppgaver ble gjort, den ble ikke arbeidet på og ble derfor fjernet. Gruppen valgte å lage enda en brukerhistorie, der nettsiden skulle designes med forside og navigering. Dette gjenspeiler målet for sprinten; "Ha en fungerende nettside som kun mangler litt funksjonalitet".
+\par Sprinten startet med et sprintplanleggingsmøte. Vi gikk ut fra releaseplanen, men siden en av brukerhistoriene ble flyttet til sprint 1 ble det hentet en fra sprint 3 (se vedlagt releaseplan-v3: ~\cref{app:releaseP3}). Gruppen valgte brukerhistorien med likest tidsestimat til den som ble flyttet til sprint 1. Gruppens egenlagde brukerhistorie om \textit{administrasjon av koiene} ble implementert av seg selv da andre oppgaver ble gjort, den ble ikke arbeidet på og ble derfor fjernet. Gruppen valgte å lage enda en brukerhistorie, der nettsiden skulle designes med forside og navigering. Dette gjenspeiler målet for sprinten; \textit{Ha en fungerende nettside som kun mangler litt funksjonalitet}.
 
 I denne sprinten handlet brukerhistoriene om direkte kontakt mellom koiestyret og brukere, og å ta ut rapporter for ved og teknisk stand. Her ble oppgavene fordelt på mindre grupper.
 Dette gikk veldig greit å utføre, fordi det lignet oppgavene fra forrige sprint.
 
-Den viktigste brukerhistorien i sprinten var å kunne ta ut ved vedrapporter og -prognoser for koiene. Den var litt vanskeligere, fordi man selv måtte definere hvor mye ved som gikk når koien ble brukt, og lage en graf ut av dette samt en prognose for når det blir tomt.
+Den viktigste brukerhistorien i sprinten var å kunne ta ut vedrapporter og -prognoser for koiene. Den var litt vanskeligere, fordi man selv måtte definere hvor mye ved som gikk når koien ble brukt, og lage en graf ut av dette samt en prognose for når det blir tomt.
 
 Gruppen ville fullføre brukerhistoriene som handlet om kommunikasjon mellom koiestyret og brukeren, derfor ble et epostsystem for å melde fra om ting som måtte tas med til og fra koier implementert.
 
 Arbeidet med nettsiden kom ganske langt, det ble laget forside og en navigasjonsmeny der implementerte funksjonener ble lagt til. Nettsiden fikk derfor mye funksjonalitet veldig tidlig, blant annet å kunne melde inn ved, ødelagte ting og tekniske utbedringer fra brukeren, og at koiestyret kunne hente ut rapportene.
 
-I slutten av sprinten ble det funnet noen bugs i vedprognose funksjonen som det ikke ble tid til å fikse, disse ble overført til neste sprint.
+I slutten av sprinten ble det funnet noen bugs i vedprognosefunksjonen som det ikke ble tid til å fikse, disse ble overført til neste sprint.
 
 Brenndiagrammet viser hvordan progresjonen for oppgavene var i denne sprinten (se vedlegg, sprint2: \cref{app:brenn}).
 
 \bigskip \noindent \textbf{Sprint 3}
 \par Sprinten startet med et sprintplanleggingsmøte. Vi gikk ut fra releaseplanen (se vedlegg releaseplan-v3: ~\cref{app:releaseP3}). Denne sprinten hadde kun 2 brukerhistorier, men tidsestimatene var veldig høye. Gruppen hadde også oppgaver fra forrige sprint, og en del arbeid med å få nettsiden til å se ferdig ut. Det ble også holdt en demonstrasjon av produktet.
 
-Brukerhistorien "oversikt over vedlikeholdsbehov utfra forventet levealdre på konstruksjonen av koien" var det noe usikkerhet rundt. Måtte man gå gjennom alle koiene og finne ut når de ble bygget og oppusset, og når de må gjøres noe med? Etter å ha snakket med kunden kom man frem til en bedre løsning der man istedenfor legger inn når noe er reparert/satt inn nytt og hvor lenge disse vil vare, man vil da få varsel ved nødvendige utbedringer.
+Brukerhistorien \textit{oversikt over vedlikeholdsbehov utfra forventet levealder på konstruksjonen av koien} var det noe usikkerhet rundt. Måtte man gå gjennom alle koiene og finne ut når de ble bygget og oppusset, og når de må gjøres noe med? Etter å ha snakket med kunden kom man frem til en bedre løsning der man istedenfor legger inn når noe er reparert/satt inn nytt og hvor lenge disse vil vare, man vil da få varsel ved nødvendige utbedringer.
 
 Brukerhistorien om kart over koiene med ved- og utstyrsstatus var forståelig, men å lage kartet tok litt tid siden det var noe nytt å sette seg inn i. Kartet ble laget med riktige posisjoner på koiene, man kan trykke på koiene og få opp link til vedstatus og utstyr. Her fikk vi en bug der man ikke kom til riktig koie på linkene, den ble ført over til sprint 4.
 
@@ -353,7 +353,7 @@ Brenndiagrammet viser hvordan progresjonen for oppgavene var i denne sprinten (s
 
   Medlemmer av Koiestyret har mulighet til å logge seg inn på en adminside med oversikt over alle rapportene. Denne kan brukes til blant annet å planlegge veddugnader basert på vedprognoser eller reparasjoner. Kommunikasjon fra administrasjonen til koiebrukerne foregår via epost. (Se vedlegg \cref{app:brukermanual}  for en detaljert beskrivelse på hvordan produktet fungerer.)
 
-  Løsningen kan testes på IP-adressen http://178.62.64.191/. (Se vedlegg "Teknisk brukermanual" \cref{app:tekniskbrukermanual} for hvordan nettsiden kan settes opp på kundens egen server.)
+  Løsningen kan testes på IP-adressen http://178.62.64.191/. (Se vedlegg \textit{Teknisk brukermanual} \cref{app:tekniskbrukermanual} for hvordan nettsiden kan settes opp på kundens egen server.)
 
   \section{Testing}
 
@@ -366,7 +366,7 @@ I Knibergs bok under kapittelet om testing\cite[side 128-131]{kniberg}, forklare
  \subsection{Brukbarhetstester}
 Etter hver sprint ble brukbarhetstester gjennomført av kunden og bestod av å løse scenario oppgaver på nettsiden relatert til brukerhistoriene som ble fullført denne sprinten. Under testingen hadde to personer hovedansvaret for testen, disse dannet hovedrollene testleder og observatør. Testlederen hadde ansvaret for å hjelpe kunden gjennom oppgavene og at testen ble gjennomført. Observatørens oppgave var å observere hvordan kunden brukte produktet.
 
-Via testene fikk gruppen sett hvordan produktet ble brukt av noen som ikke har jobbet med nettsiden. Dette hjalp å se hvor brukervennlig produktet var eller hvilke deler som var forvirrende for kunden. Flere av navnene under administrasjonssiden måtte endres, da disse var misvisende. Det samme gjaldt for linkene på hovedsiden.
+Via testene fikk gruppen sett hvordan produktet ble brukt av noen som ikke har jobbet med nettsiden. Dette hjalp å se hvor brukervennlig produktet var eller hvilke deler som var forvirrende for kunden. Flere av navnene under administrasjonssiden måtte endres, da disse var misvisende. Det samme gjaldt  linkene på hovedsiden.
 
 \section{Konklusjon}
 Vi endte opp med en velfungerende nettside der kravspesifikasjonene ble oppfylt innenfor satt frist. Gruppen klarte dette fordi vi kom tidlig igang og fokuserte sterkt på å jobbe effektivt og ikke sløse tid. Med \textit{Scrum}-modellen viste dette seg å være enklere enn først antatt. I avslutningsfasen av prosjektet hadde vi et retrospektiv-møte for hele prosjektperioden. (\cref{app:motereferat}) Her gjennomførte vi en postmortemanalyse for å finne ut hva vi ville ta med videre til fremtidige prosjekter, og hva vi ville unngå \cite[side 37]{dyba}. For eksempel kunne vi involvert flere i rapportskriving tidligere og rullert arbeidsoppgavene oftere. Gruppemedlemmene var enige om at taskboard, daglige Scrum-møter og faste møter/arbeidsøkter var velfungerende og viktig for at prosjektet gikk så bra. Vi hadde en god dialog innad i gruppen under hele prosjektet noe som var nøkkelen til en god gjennomføring. Uten bra samarbeid og god moral ville gruppen utført prosjektet på en mindre effektiv måte og resultatet blitt mindre polert. Gruppen har gjennom dette emnet lært mye om langsiktig jobbing med større prosjekter, og fått viktige verktøy som vi kan dra god nytte av i fremtiden med lignende problem.
